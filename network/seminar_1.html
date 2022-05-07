@@ -1,0 +1,99 @@
+<!DOCTYPE HTML>
+<!--
+	Solid State by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+<head>
+    <title>My e-portfolio | Network and Security - Collab0rative Discussion 1</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="../assets/css/main.css" />
+    <noscript>
+        <link rel="stylesheet" href="../assets/css/noscript.css" /></noscript>
+</head>
+
+<body class="is-preload">
+
+    <!-- Page Wrapper -->
+    <div id="page-wrapper">
+
+        <!-- Header -->
+        <header id="header" class="alt">
+            <h1><a href="index.html">Solid State</a></h1>
+            <nav>
+                <a href="#menu">Menu</a>
+            </nav>
+        </header>
+
+        <!-- Menu -->
+        <nav id="menu">
+            <div class="inner">
+                <h2>Menu</h2>
+                <ul class="links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="network_info.html">NISM 2022</a></li>
+
+                </ul>
+                <a href="#" class="close">Close</a>
+            </div>
+        </nav>
+
+        <!-- Wrapper -->
+        <section id="wrapper">
+            <header>
+                <div class="inner">
+                    <h2>Seminar 1 - STRIDE and DREAD tools</h2>
+                </div>
+            </header>
+            <div class="wrapper">
+                <div class="inner">
+                    <p>Under discussions for Collaborative Discussions 1, we were asked to read the case study where
+                    a group of students use the online tools to attack and check the vulnerabilities of the Medical
+                    Devices on a Medical Mannequin. The summary post of the same can be accessed <a href="ns_collab_1.html">here</a>.</p>
+
+                    <p>
+                        In this seminar, we discussed the DREAD ratings on the same article and evaluate the level of vulnerabilities
+                        on a scale of 0 to 3 where 0 = no risk and 3 = maximum risk. The DREAD tool was reorganised for the same. The detail
+                        on each entry of DREAD is given below.
+                    </p>
+
+                    <ul>
+                        <li><b>Damage Potential (3)</b>: Under this category, we have given the maximum rating of 3 (that is Destruction of information or data).
+                            We have assumed that once the PIN was broken and the access to the device was available, the damage potential is
+                            maximum possibility.
+                        </li>
+                        <li><b>Reproducibility (1)</b>: It is assumed that once the PIN of the devices are changed, it will take more than 9 hours to detect a PIN using Brute Force Attack.
+                        </li>
+                        <li><b>Exploitability (2)</b>: As we see in the case study that the students used some attack tools such as BackTrack, etc to exploit the vulnerabilities,
+                            it is assumed that although the attack will need some tools, but not high level advance programming skills.
+                        </li>
+                        <li><b>Affected Users (0.5)</b>: As per the case study, the affected users will be limited to only 1 per attack, which is the patient.
+                        </li>
+                        <li><b>Discoverability (2)</b>: As per the case study, the students found out the vulnerabilities from the information available in public domain.
+                        </li>
+                    </ul>
+
+                    <p>So the total score of the DREAD rating stands at <b>8.5 out of 15</b>. This shows that the devices are moderately vulnerable to the attacks.</p>
+
+
+                </div>
+            </div>
+
+        </section>
+
+    </div>
+
+    <!-- Scripts -->
+    <script src="../assets/js/jquery.min.js"></script>
+    <script src="../assets/js/jquery.scrollex.min.js"></script>
+    <script src="../assets/js/browser.min.js"></script>
+    <script src="../assets/js/breakpoints.min.js"></script>
+    <script src="../assets/js/util.js"></script>
+    <script src="../assets/js/main.js"></script>
+
+</body>
+
+</html>
