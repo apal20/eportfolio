@@ -1,0 +1,88 @@
+<!DOCTYPE HTML>
+<!--
+Solid State by HTML5 UP
+html5up.net | @ajlkn
+Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+    <head>
+        <title>My e-portfolio | Secure Software Development - Team Activity</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <link rel="stylesheet" href="../assets/css/main.css" />
+        <noscript><link rel="stylesheet" href="../assets/css/noscript.css" /></noscript>
+    </head>
+    <body class="is-preload">
+        <!-- Page Wrapper -->
+        <div id="page-wrapper">
+            <!-- Header -->
+            <header id="header">
+                <h1><a href="index.html">Anoushka Pal</a></h1>
+                <nav>
+                    <a href="#menu">Menu</a>
+                </nav>
+            </header>
+            <!-- Menu -->
+            <nav id="menu">
+                <div class="inner">
+                    <h2>Menu</h2>
+                    <ul class="links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="../network_info.html">Network Information</a></li>
+                        <li><a href="../secure_software.html">Secure Software Development</a></li>
+                    </ul>
+                    <a href="#" class="close">Close</a>
+                </div>
+            </nav>
+            <!-- Wrapper -->
+            <section id="wrapper">
+                <header>
+                    <div class="inner">
+                        <h2>Team Activity: Discussion</h2>
+                    </div>
+                </header>
+                <div class="wrapper">
+                    <div class="inner">
+                        <h3>Q1. What factors determine whether a programming language is secure or not?</h3>
+                        The various factors, according to Cifuentes and Biermann, that determine whether a programming language is secure are&nbsp;
+                        <ul>
+                            <li>Buffer Errors &ndash; This occurs when the data stored overflows the designated size of the data type.</li>
+                            <li>Injection Errors &ndash; Vulnerabilities such as Cross side Scipting (XSS), SQL Injections, etc that can compromise the security of the data or the application causes Injection Errors.</li>
+                            <li>Information Leak Errors &ndash; Information being leaked through log files, caching, environment variables, test code, etc causes such errors.</li>
+                        </ul>
+                        
+                        <p>Although a lot of such errors are mitigated by the Software Developer at the time of development of software. However, it is upto the programming language to provide the support to handle such errors to prevent the attackers to exploit the common vulnerabilities.</p>
+                        
+                        <h3>Q2. Could Python be classed as a secure language? Justify your answer.</h3>
+                        <p>Python, with the advancement of version 3.x, became a secure language. The common issues such as Overflow errors have been handled pretty well. Python 3.x raises the&nbsp;<em>Overflow Error&nbsp;</em>when the size of the value exceeds the possible data type. Python based web frameworks such as Flask provides basic escape character (pipe symbol |) to mitigate the DoS and XSS attacks. It also provides an excellent set of threading primitives to handle race conditions. The newer string formating function (format()) provides safer ways. Thus it can be easily concluded that Python 3.x is a secure language.</p>
+                        
+                        <h3>Q3. Python would be a better language to create operating systems than C. Discuss.</h3>
+                        <p>Python is not the language to develop the operating system. For an operating system, the language should be able to take control of memory allocation and freeing, and able to jump to specific address and continue execution from that address. Python is a high level language and is dependent on low level language such as C to directly access hardware and perform low-level data structure manipulation. However, if low level stuff is written in C and other functions in Python, an Operating system can be created.</p>
+                        <h4>References:</h4>
+                        <ul>
+                            <li>
+                                <p>Cifuentes, C. &amp; Bierman, G. (2019)&nbsp;<em>What is a Secure Programming Language?</em> 3rd Summit on Advances in Programming Languages (SNAPL).136(3): 1 - 15.</p>
+                            </li>
+                            <li>
+                                <p>Pillai, A.B. (2017)&nbsp;<em>Software Architecture with Python</em>. Birmingham, UK. Packt Publishing Ltd.</p>
+                            </li>
+                            <li>
+                                <p><u><a href="https://wiki.osdev.org/Languages">https://wiki.osdev.org/Languages</a></u></p>
+                            </li>
+                            <li>
+                                <p><u><a href="https://stackoverflow.com/a/10904910">https://stackoverflow.com/a/10904910</a></u></p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <!-- Scripts -->
+        <script src="../assets/js/jquery.min.js"></script>
+        <script src="../assets/js/jquery.scrollex.min.js"></script>
+        <script src="../assets/js/browser.min.js"></script>
+        <script src="../assets/js/breakpoints.min.js"></script>
+        <script src="../assets/js/util.js"></script>
+        <script src="../assets/js/main.js"></script>
+    </body>
+</html>
