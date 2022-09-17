@@ -1,0 +1,89 @@
+<!DOCTYPE HTML>
+<!--
+Solid State by HTML5 UP
+html5up.net | @ajlkn
+Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+    <head>
+        <title>My e-portfolio | Secure Software Development - Buffer Overflow</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <link rel="stylesheet" href="../assets/css/main.css" />
+        <noscript><link rel="stylesheet" href="../assets/css/noscript.css" /></noscript>
+    </head>
+    <body class="is-preload">
+        <!-- Page Wrapper -->
+        <div id="page-wrapper">
+            <!-- Header -->
+            <header id="header">
+                <h1><a href="index.html">Anoushka Pal</a></h1>
+                <nav>
+                    <a href="#menu">Menu</a>
+                </nav>
+            </header>
+            <!-- Menu -->
+            <nav id="menu">
+                <div class="inner">
+                    <h2>Menu</h2>
+                    <ul class="links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="../network_info.html">Network Information</a></li>
+                        <li><a href="../secure_software.html">Secure Software Development</a></li>
+                    </ul>
+                    <a href="#" class="close">Close</a>
+                </div>
+            </nav>
+            <!-- Wrapper -->
+            <section id="wrapper">
+                <header>
+                    <div class="inner">
+                        <h2>Codio Activity : Buffer Overflow</h2>
+                    </div>
+                </header>
+                <div class="wrapper">
+                    <div class="inner">
+                        <h4>The command used was&nbsp;</h4>
+<p>$ python3 Api.py</p>
+<p><br></p>
+<h4>Question 2</h4>
+<p>Run the following command at the terminal prompt: w3m&nbsp;<u><a href="http://127.0.0.1:5000/user/Ann" target="_blank"><strong>http://127.0.0.1:5000/user/Ann</strong></a></u></p>
+<p>What happens when this command is run, and why?</p>
+<h4><br></h4>
+<p>When the command is run, following output is stored in the file saved as &ldquo;Ann&rdquo;</p>
+<p><br></p>
+<p>{</p>
+<p>&nbsp;&quot;name&quot;: &quot;Ann&quot;,</p>
+<p>&nbsp;&quot;age&quot;: 32,</p>
+<p>&nbsp;&quot;occupation&quot;: &quot;Doctor&quot;</p>
+<p>}</p>
+<p><br></p>
+<h4>This happens because as the URL is passed, the get call is made and the get method is invoked. This get method searches for the user named as &ldquo;Ann&rdquo; and gives back the result.</h4>
+<p><br></p>
+<h4>Question 3</h4>
+<p>Run the following command at the terminal prompt: w3m&nbsp;<u><a href="http://127.0.0.1:5000/user/Adam"><strong>http://127.0.0.1:5000/user/Adam</strong></a></u><u>.&nbsp;</u><u>W</u>hat happens when this command is run, and why?</p>
+<p><br></p>
+<p>When the command is run, following output is stored in the file saved as &ldquo;Adam&rdquo;</p>
+<p>&quot;User not found&quot;</p>
+<p><br></p>
+<h4>This happens because as the URL is passed, the get call is made and the get method is invoked. This get method searches for the user named as &ldquo;Adam&rdquo; and when it is not found, it returns the error message with HTTP code 404.</h4>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+<h4>Question 4</h4>
+<p>What capability is achieved by the flask library?</p>
+<p><br></p>
+<p>The flask library &ldquo;Flask Restful&rdquo; is able to make use of the best of Object Oriented design and calling APIs. In absence of this library, each method is invoked as a separate method with api.route given. In this case, each of HTTP methods: get, put, post and delete are converted into Python methods.</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <!-- Scripts -->
+        <script src="../assets/js/jquery.min.js"></script>
+        <script src="../assets/js/jquery.scrollex.min.js"></script>
+        <script src="../assets/js/browser.min.js"></script>
+        <script src="../assets/js/breakpoints.min.js"></script>
+        <script src="../assets/js/util.js"></script>
+        <script src="../assets/js/main.js"></script>
+    </body>
+</html>
