@@ -1,0 +1,76 @@
+<!DOCTYPE HTML>
+<!--
+Solid State by HTML5 UP
+html5up.net | @ajlkn
+Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+    <head>
+        <title>My e-portfolio | Secure Software Development - Seminar 2</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <link rel="stylesheet" href="../assets/css/main.css" />
+        <noscript><link rel="stylesheet" href="../assets/css/noscript.css" /></noscript>
+    </head>
+    <body class="is-preload">
+        <!-- Page Wrapper -->
+        <div id="page-wrapper">
+            <!-- Header -->
+            <header id="header">
+                <h1><a href="index.html">Anoushka Pal</a></h1>
+                <nav>
+                    <a href="#menu">Menu</a>
+                </nav>
+            </header>
+            <!-- Menu -->
+            <nav id="menu">
+                <div class="inner">
+                    <h2>Menu</h2>
+                    <ul class="links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="../network_info.html">Network Information</a></li>
+                        <li><a href="../secure_software.html">Secure Software Development</a></li>
+                    </ul>
+                    <a href="#" class="close">Close</a>
+                </div>
+            </nav>
+            <!-- Wrapper -->
+            <section id="wrapper">
+                <header>
+                    <div class="inner">
+                        <h2>Seminar 2</h2>
+                    </div>
+                </header>
+                <div class="wrapper">
+                    <div class="inner">
+                        <p>On reading the given Python Tutorial on Cryptography, I came to know a number of encryption and decryption algorithms such as Caesar, ROT13, Transposition, Base64 Encoding of files, XOR Process, Simple Substitution Cipher and Hashing alogrithms from Cryptography library.</p>
+                        <p>For this seminar, I choose to use the <a href="seminar_2_cipher.py">SHA256</a> hashing algorithm for the Text Encryption. This algorithm provides the following benefits -</p>
+                        <ol>
+                            <li>
+                                It is used to store passwords in the applications. Such a use is widespread and will be utilised in our final output.
+                            </li>
+                            <li>
+                                This algorithm, along with SHA512, and Bcrypt are one of the most secure algorithms to save passwords.
+                            </li>
+                        </ol>
+                        <p>With respect to GDPR, if we store the hash of Consumer&rsquo;s Id or its Name and other identifiers, before transferring the data, it involves a level of anonymity for the third party users. Thus the identity of the consumer is protected with the help of one way hashing.</p>
+                        <p>For the file encryption, I chose the <a href="seminar_2_file_encrypt.py">PyCrypto</a> library of Python. This encryption involves the use of a password to encrypt the file before it can be transmitted over a communication channel. Thus, if one is to tranfer any file, under GDPR regulations, then it becomes mandatory to encrypt the personal data files such as copies of identity cards.</p>
+
+                        <h5>Python Files</h5>
+                        <ol>
+                        <li><a href="seminar_2_cipher.py">SHA256 Cipher</a></li>
+                        <li><a href="seminar_2_file_encrypt.py">PyCrypto for File Encryption</a></li>
+                        </ol>
+
+                    </div>
+                </div>
+            </section>
+            <!-- Scripts -->
+            <script src="../assets/js/jquery.min.js"></script>
+            <script src="../assets/js/jquery.scrollex.min.js"></script>
+            <script src="../assets/js/browser.min.js"></script>
+            <script src="../assets/js/breakpoints.min.js"></script>
+            <script src="../assets/js/util.js"></script>
+            <script src="../assets/js/main.js"></script>
+        </body>
+    </html>
